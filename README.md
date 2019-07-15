@@ -15,6 +15,9 @@ npm [ Vue 2.0 移动设备指令( Vue touch directive )](https://www.npmjs.com/p
 上滑： v-touch:up  
 下滑： v-touch:down  
 
+npm [gh-pages](https://www.npmjs.com/package/gh-pages)  
+`npm i gh-pages`  
+
 ## Project setup
 ```
 yarn install
