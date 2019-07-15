@@ -14,6 +14,10 @@ export default new Router({
       component: Home
     },
     {
+      path: '/view',
+      component: resolve => require(['@/components/View'], resolve)
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting

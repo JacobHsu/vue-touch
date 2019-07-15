@@ -4,6 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import touch from 'vue-directive-touch';
+Vue.use(touch);
+
 new Vue({
   router,
   render: h => h(App)

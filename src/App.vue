@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-touch:right="onSwipeLeft">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,6 +7,24 @@
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            //
+        }
+    },
+    created () {
+        //
+    },
+    methods: {
+      onSwipeLeft () {
+        this.$router.go(-1)
+      }
+    }
+}
+</script>
 
 <style>
 #app {
